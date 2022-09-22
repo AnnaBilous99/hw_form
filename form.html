@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>form_AnnaBilous</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Registration Form</h1>
+    </div>
+    <div class="conteiner">
+      <form action="mailto:b.anna.v99@gmail.com" method="post">
+        <div class="form">
+          <label>First Name</label>
+          <input type="text" name="userName" />
+        </div>
+        <div class="form">
+          <label>Last Name</label>
+          <input type="text" name="userLastName" />
+        </div>
+        <div class="form">
+          <label>Email</label>
+          <input type="email" name="userEmeil" />
+        </div>
+        <div class="form">
+          <label>Password</label>
+          <input type="password" name="userPassword" />
+        </div>
+        <div class="form">
+          <label>Repeat Password</label>
+          <input type="password" name="userPassword2" />
+        </div>
+        <div class="button">
+          <button type="reset" id="reset" onclick="reset()">Reset</button>
+          <button type="submit" id="register" onclick="register()">
+            Register
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="footer"></div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
